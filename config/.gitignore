@@ -1,0 +1,4 @@
+# conifg gitignore
+.env
+.env*
+!.env.example
