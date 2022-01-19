@@ -34,6 +34,14 @@ bower_components
 # node-waf configuration
 .lock-wscript
 
+# config
+config/
+!config/index.js 
+!config/.gitignore
+!config/.gitkeep
+!config/.env.example
+
+
 # Compiled binary addons (https://nodejs.org/api/addons.html)
 build/Release
 
