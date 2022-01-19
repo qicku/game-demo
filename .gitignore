@@ -35,7 +35,7 @@ bower_components
 .lock-wscript
 
 # config
-config/
+config/*
 !config/index.js 
 !config/.gitignore
 !config/.gitkeep

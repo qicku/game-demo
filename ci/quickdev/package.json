@@ -1,0 +1,14 @@
+{
+  "name": "quickdev-tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "qkdev": "cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lanbery",
+  "license": "MIT"
+}
