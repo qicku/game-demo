@@ -1,0 +1,6 @@
+// https://sass-lang.com/documentation/at-rules/function
+@function invert($color, $amount: 100%) {
+  $inverse: change-color($color, $hue: hub($color) + 180);
+
+  @return mix($inverse, $color, $amount);
+}

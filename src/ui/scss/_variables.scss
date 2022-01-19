@@ -1,0 +1,25 @@
+/* Customize variables */
+:root {
+  --brv-gray-color: rgba(243, 244, 246, 1);
+  --brv-gray-border-color: rgba(200, 204, 207, 1);
+  --brv-font-color: rgba(25, 25, 29, 1);
+  --brv-light-gray-color: rgb(242, 243, 244, 1);
+  --brv-placehodler-color: rgba(158, 161, 162, 1);
+  --brv-horizontal-space: 12px;
+  --font-size: 14px;
+  --eth-mainnet-color: rgba(41, 182, 175, 1);
+  --eth-ropsten-color: rgba(255, 74, 141, 1);
+  --eth-rinkeby-color: rgba(246, 195, 67, 1);
+  --eth-kovan-color: rgba(144, 100, 255, 1); //48, 153, 242
+  --eth-goerli-color: rgba(48, 153, 242, 1);
+  --chain-default-color: rgba(158, 161, 162, 1);
+}
+
+/* antd-mobile */
+:root:root {
+  --font-size: 14px;
+}
+
+/* Sass Variables */
+$p3Width: 375;
+$p3Height: 600;

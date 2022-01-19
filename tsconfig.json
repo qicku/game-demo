@@ -1,0 +1,71 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "lib": [
+      "dom",
+      "DOM.Iterable",
+      "ESNext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "noEmit": false,
+    "jsx": "react",
+    "baseUrl": "./",
+    "outDir": "/dist",
+    "paths": {
+      "~/*": [
+        "src/*"
+      ],
+      "~Biz/*": [
+        "src/biz/*"
+      ],
+      "~Asset/*": [
+        "src/asset/*"
+      ],
+      "~Lib/*": [
+        "src/lib/*"
+      ],
+      "~Layout/*": [
+        "src/layouts/*"
+      ],
+      "~Router/*": [
+        "src/router/*"
+      ],
+      "~Store/*": [
+        "src/store/*"
+      ],
+      "~UI/*": [
+        "src/ui/*"
+      ],
+      "~Scss/*": [
+        "src/ui/scss/*",
+        "src/ui/css"
+      ],
+      "~Page/*": [
+        "src/pages/*"
+      ],
+      "~Widget/*": [
+        "src/ui/widgets/*"
+      ],
+      "~Mock/*": [
+        "src/mocks/*"
+      ],
+      "~View/*": [
+        "src/views/*"
+      ]
+    }
+  },
+  "exclude": [
+    "dist",
+    "node_modules",
+    "**/*.spec.ts"
+  ]
+}

@@ -1,0 +1,5 @@
+# EsLint ignore config
+
+build/*
+dist/*
+public/**/*.min.js

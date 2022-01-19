@@ -1,0 +1,12 @@
+.anticon {
+  &.brave-icon {
+    line-height: inherit;
+    // fill: #000;
+    // width: 1em;
+    // height: 1em;
+
+    &[role='img'] {
+      outline-style: none;
+    }
+  }
+}

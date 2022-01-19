@@ -1,0 +1,19 @@
+/*!
+ * @FilePath     : _mixin.scss
+ * 2019-12-15 21:02:27
+ * @Description  : Extension devtools v0.1.0
+ * 		 This file is implement
+ * 	
+ * Copyright 2019-2021 Lamborui
+ *  
+ */
+
+/* use in other @include row-flex */
+@mixin row-flex {
+  flex: 1 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-end;
+}

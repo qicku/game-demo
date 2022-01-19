@@ -1,0 +1,35 @@
+.brv {
+  &-select {
+    &-input {
+      input {
+        outline: none;
+        line-height: 1.75em;
+        user-select: none;
+        border-radius: 2em;
+        padding-left: 0.75em;
+        border: solid 1px var(--brv-gray-border-color);
+      }
+    }
+    &-wrapper {
+      position: absolute;
+      z-index: 999;
+      background: rgba(255, 255, 255, 1);
+      padding: 0 0;
+      box-shadow: 0 3px 6px -4px #0000001f, 0 6px 16px #00000014,
+        0 9px 28px 8px #0000000d;
+    }
+
+    &-option {
+      padding-left: 4px;
+      line-height: 1.25em;
+      user-select: none;
+      text-overflow: ellipsis;
+      transition: 0.3s ease;
+      line-height: 2.25em;
+
+      &:hover {
+        background-color: var(--brv-light-gray-color);
+      }
+    }
+  }
+}

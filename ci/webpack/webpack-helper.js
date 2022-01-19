@@ -36,7 +36,7 @@ const ResolveAlias = {
   '~Widget': R(src, 'ui/widgets'),
   '~Mock': R(src, 'mocks'),
   '~Page': R(src, 'pages'),
-  '~Views': R(src, 'views'),
+  '~View': R(src, 'views'),
   // '~P3View': R(src, 'popup/views'),
   // '~P3Store': R(src, 'popup/store'),
 }

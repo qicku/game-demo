@@ -1,0 +1,26 @@
+/**
+ * This style file generate by QuickDev Tools 2022-1-19 21:35
+ * This file used define the module home styles.
+ * This file must be imported into parent scss file, to take it effect.
+ * like : @import './home/home.scss';
+ */
+
+.home {
+  &-page {
+    margin: 0;
+  }
+
+  &__header {
+    text-align: center;
+  }
+
+  &__content {
+    display: flex;
+    flex-flow: column nowrap;
+    flex: 1 1 auto;
+  }
+
+  &__footer {
+    text-align: center;
+  }
+}
